@@ -34,7 +34,7 @@ const Note = props => {
   const updatePublished = status => {
     var data = {
       id: currentNote.id,
-      title: currentTutorial.title,
+      title: currentNote.title,
       description: currentNote.description,
       published: status
     };
