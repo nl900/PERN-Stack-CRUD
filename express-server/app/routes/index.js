@@ -8,9 +8,15 @@ const controller = require("../controllers");
  * definitions:
  *   Note:
  *     properties:
+ *       id:
+ *         type: integer
  *       title:
  *         type: string
  *       description:
+ *         type: string
+ *       createdAt:
+ *         type: string
+ *       updatedAt:
  *         type: string
  */
 
@@ -73,7 +79,12 @@ router.get("/:id", controller.findOne);
  *         in: body
  *         required: true
  *         schema:
- *           $ref: '#/definitions/Note'
+ *           type: object
+ *           properties:
+ *              title:
+ *                  type: string
+ *              description:
+ *                  type: string
  *     responses:
  *       200:
  *         description: Successfully created
