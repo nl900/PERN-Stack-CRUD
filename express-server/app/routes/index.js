@@ -4,14 +4,14 @@ const router = express.Router();
 const controller = require("../controllers");
 
 
-// Create a new Note
-router.post("/", controller.create);
-
 // Get all Notes
 router.get("/", controller.findAll);
 
 // Get Note by Id
 router.get("/:id", controller.findOne);
+
+// Create a new Note
+router.post("/", controller.create);
 
 // Modify existing Note
 router.put("/:id", controller.update);
