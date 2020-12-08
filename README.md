@@ -13,6 +13,7 @@ cd express-server
 node server.js
 ```
 Server is running on localhost:8080
+API endpoints can be found at http://localhost:8080
 
 Start frontend
 

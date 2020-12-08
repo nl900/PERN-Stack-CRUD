@@ -10,7 +10,7 @@ var swaggerDefinition = {
   info: {
     title: 'Node Swagger API',
     version: '1.0.1',
-    description: 'Demonstrating how to desribe a RESTful API with Swagger',
+    description: 'Express CRUD API',
   },
   host: 'localhost:8080',
   basePath: '/',
