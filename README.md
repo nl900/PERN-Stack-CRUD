@@ -1,4 +1,4 @@
-# PERN-stack-CRUD
+# PERN-Stack-CRUD
 Postgres, Express, React, and Node
 
 
