@@ -12,7 +12,7 @@ Start backend server
 cd express-server 
 node server.js
 ```
-Server is running on localhost:8080
+Server is running on port 8080 </br>
 API endpoints can be found at http://localhost:8080
 
 Start frontend
